@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form action="https://httpbin.org/post" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="fname" id="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass" placeholder="Enter your password">
+        <br><br>
+
+        Gender:
+        <input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox" id="cricket" name="hobby" value="cricket"><label for="cricket">Cricket</label>
+        <input type="checkbox" id="football" name="hobby" value="football"><label for="football">Footbal</label>
+        <br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="enter your age">
+        <br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" placeholder="=Enter your dob">
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
