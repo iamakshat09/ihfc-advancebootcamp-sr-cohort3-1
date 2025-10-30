@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Class Object</h1>
+
+    <script>
+        class Car{
+            constructor(name,color){
+                this.name=name;
+                this.color=color;
+            }
+
+            showdata(){
+                console.log("Car name is "+this.name+" and with color "+this.color)
+            }
+        }
+
+        let car1=new Car("Shift","Grey");
+        car1.showdata();
+
+        let car2=new Car("Creta","Black");
+        car2.showdata();
+    </script>
+</body>
+</html>
